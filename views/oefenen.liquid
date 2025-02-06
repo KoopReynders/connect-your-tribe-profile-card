@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oefenen</title>
+  </head>
+  <body>
+
+
+
+<h1>Data-Driven Web</h1>
+<p>Ik ben {{ person.name }}</p>
+
+<p>Het is vandaag {{ 'now' | date }}</p>
+
+
+<!-- {{ person.custom.hobby }} -->
+
+<ul>
+{%- for item in person.custom %}
+  <li>
+      {{ item[0] }} - {{ item[1] }}
+    </a>
+  </li>
+{%- endfor%}
+</ul>
+
+
+<!--<br>{{ person | json }} -->
+
+
+
+
+<details><summary>Data</summary><pre>{{ person | json:4 }}</pre></details>
+
+
+
+
+{% render 'partials/foot.liquid' %}
