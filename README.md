@@ -1,9 +1,11 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Visitekaartje
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+Redesign je visitekaartje en bouw het met NodeJS en een REST API.
 
-## Inhoudsopgave
+De instructie vind je in: [INSTRUCTIONS](https://github.com/fdnd-task/connect-your-tribe-profile-card/blob/main/docs/INSTRUCTIONS.md)
+
+
+## Inhoudsopgave Readme
 
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
@@ -28,6 +30,5 @@
 
 ## Licentie
 
-![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+This project is licensed under the terms of the [MIT license](./LICENSE).
 
-This work is licensed under [GNU GPLv3](./LICENSE).
